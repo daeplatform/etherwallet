@@ -1,15 +1,15 @@
-### [https://www.MyEtherWallet.com](https://www.MyEtherWallet.com)
-
-### [Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm)
-
-### [Download the Latest Release](https://github.com/kvhnuke/etherwallet/releases/latest)
+### MEW - MyEtherWallet
+## [MyEtherWallet](https://www.MyEtherWallet.com)
+## [mew.daeplatform.net](https://mew.daeplatform.net)
+## [Chrome Extension](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm)
+## [Download the Latest Release](https://github.com/kvhnuke/etherwallet/releases/latest)
 
 - etherwallet-vX.X.X.X.zip is the smaller package containing the gh-pages branch aka MyEtherWallet.com
 - chrome-extension-vX.X.X.X.zip is the chrome extension package
 - source code is the full source for developers to get started with (although cloning or forking the mercury branch is probably a better choice)
 
 ### Live verify files
-Check gh-pages files against live website at https://www.myetherwallet.com
+Check gh-pages files against live website at https://www.myetherwallet.com or https://mew.daeplatform.net
 
 | File Name| Status|
 |---|---|
@@ -29,6 +29,7 @@ Check gh-pages files against live website at https://www.myetherwallet.com
 ### MEW Around the Web
 
 - [Website: https://www.myetherwallet.com/](https://www.myetherwallet.com/)
+- [Website: https://mew.daeplatform.net/](https://mew.daeplatform.net/)
 - [CX: https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm](https://chrome.google.com/webstore/detail/myetherwallet-cx/nlbmnnijcnlegkjjpcfjclmcfggfefdm)
 - [Anti-phish CX](https://chrome.google.com/webstore/detail/etheraddresslookup/pdknmigbbbhmllnmgdfalmedcmcefdfn)
 - [FB: https://www.facebook.com/MyEtherWallet/](https://www.facebook.com/MyEtherWallet/)
@@ -73,11 +74,13 @@ Check gh-pages files against live website at https://www.myetherwallet.com
     - to=[address]
     - value=[number]
     - sendMode=[ether | token]
-    - tokenSymbol=[ARC | ICN | MKR | ....]
+    - tokenSymbol=[ARC | ICN | MKR | DAER | ....]
     - gasLimit=[number] OR gas=[number]
     - data=[hex data]
     - Example 1: https://www.myetherwallet.com/?to=0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D&value=1&tokenSymbol=REP&gaslimit=50000#send-transaction
     - Example 2: https://www.myetherwallet.com/?to=0xDECAF9CD2367cdbb726E904cD6397eDFcAe6068D&value=1&gaslimit=23000&data=0x5468616e6b20796f752c204d455720322e30#send-transaction
+    - Example 3: https://mew.daeplatform.net/?to=0xcf9D71255C9E3583C51C5872b5542f0fd71fBfF6&value=1&tokenSymbol=REP&gaslimit=50000#send-transaction
+    - Example 4: https://mew.daeplatform.net/?to=0xcf9D71255C9E3583C51C5872b5542f0fd71fBfF6&value=1&gaslimit=23000&data=0x5468616e6b20796f752c204d455720322e30#send-transaction
 
 
 
